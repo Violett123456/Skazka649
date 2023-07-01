@@ -45,13 +45,13 @@ var APP_DATA = {
           "yaw": -1.9234343407310863,
           "pitch": 0.36506466870471677,
           "rotation": 0,
-          "target": "4-"
+          "target": "5-1"
         },
         {
           "yaw": -0.6559579411951706,
           "pitch": 0.08619845665063863,
           "rotation": 0,
-          "target": "5--"
+          "target": "4--"
         }
       ],
       "infoHotspots": []
@@ -177,45 +177,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "4-",
-      "name": "Детская",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.7039646345552777,
-          "pitch": 0.06848462568952485,
-          "rotation": 0,
-          "target": "0-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "5--",
+      "id": "4--",
       "name": "Кухня-Гостиная",
       "levels": [
         {
@@ -246,6 +208,44 @@ var APP_DATA = {
         {
           "yaw": -2.7835910552922556,
           "pitch": 0.3618556486769364,
+          "rotation": 0,
+          "target": "0-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-1",
+      "name": "Детская1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.678124662012788,
+          "pitch": 0.05853829989337811,
           "rotation": 0,
           "target": "0-"
         }
